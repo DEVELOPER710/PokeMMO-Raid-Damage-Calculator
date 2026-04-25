@@ -2928,13 +2928,6 @@ var DPP_PATCH = {
         nfe: true,
         abilities: { 0: 'Sturdy' }
     },
-    Breezi: {
-        types: ['Poison', 'Flying'],
-        bs: { hp: 50, at: 46, df: 69, sa: 60, sd: 50, sp: 75 },
-        weightkg: 0.6,
-        nfe: true,
-        abilities: { 0: 'Unburden' }
-    },
     Bronzong: {
         types: ['Steel', 'Psychic'],
         bs: { hp: 67, at: 89, df: 116, sa: 79, sd: 116, sp: 33 },
@@ -3042,6 +3035,12 @@ var DPP_PATCH = {
     Cresselia: {
         types: ['Psychic'],
         bs: { hp: 120, at: 70, df: 110, sa: 75, sd: 120, sp: 85 },
+        weightkg: 85.6,
+        abilities: { 0: 'Levitate' }
+    },
+    'Cresselia-Raid': {
+        types: ['Psychic'],
+        bs: { hp: 1200, at: 175, df: 1100, sa: 187, sd: 1200, sp: 85 },
         weightkg: 85.6,
         abilities: { 0: 'Levitate' }
     },
@@ -3209,6 +3208,12 @@ var DPP_PATCH = {
         weightkg: 430,
         abilities: { 0: 'Flash Fire' }
     },
+    'Heatran-Raid': {
+        types: ['Fire', 'Steel'],
+        bs: { hp: 910, at: 225, df: 1060, sa: 325, sd: 1060, sp: 77 },
+        weightkg: 430,
+        abilities: { 0: 'Flash Fire' }
+    },
     Hippopotas: {
         types: ['Ground'],
         bs: { hp: 68, at: 72, df: 78, sa: 38, sd: 42, sp: 32 },
@@ -3350,13 +3355,6 @@ var DPP_PATCH = {
         nfe: true,
         abilities: { 0: 'Blaze' }
     },
-    Monohm: {
-        types: ['Electric'],
-        bs: { hp: 53, at: 40, df: 58, sa: 67, sd: 55, sp: 55 },
-        weightkg: 4.1,
-        nfe: true,
-        abilities: { 0: 'Shield Dust' }
-    },
     Mothim: {
         types: ['Bug', 'Flying'],
         bs: { hp: 70, at: 94, df: 50, sa: 94, sd: 50, sp: 66 },
@@ -3369,13 +3367,6 @@ var DPP_PATCH = {
         weightkg: 105,
         nfe: true,
         abilities: { 0: 'Pickup' }
-    },
-    Nohface: {
-        types: ['Ghost'],
-        bs: { hp: 50, at: 73, df: 50, sa: 30, sd: 50, sp: 80 },
-        weightkg: 5.9,
-        nfe: true,
-        abilities: { 0: 'Frisk' }
     },
     Pachirisu: {
         types: ['Electric'],
@@ -3425,25 +3416,11 @@ var DPP_PATCH = {
         nfe: true,
         abilities: { 0: 'Torrent' }
     },
-    Privatyke: {
-        types: ['Water', 'Fighting'],
-        bs: { hp: 65, at: 75, df: 65, sa: 40, sd: 60, sp: 45 },
-        weightkg: 35,
-        nfe: true,
-        abilities: { 0: 'Unaware' }
-    },
     Probopass: {
         types: ['Rock', 'Steel'],
         bs: { hp: 60, at: 55, df: 145, sa: 75, sd: 150, sp: 40 },
         weightkg: 340,
         abilities: { 0: 'Sturdy' }
-    },
-    Protowatt: {
-        types: ['Electric', 'Water'],
-        bs: { hp: 51, at: 44, df: 33, sa: 43, sd: 34, sp: 65 },
-        weightkg: 0.1,
-        nfe: true,
-        abilities: { 0: 'Trace' }
     },
     Purugly: {
         types: ['Normal'],
@@ -3456,14 +3433,6 @@ var DPP_PATCH = {
         bs: { hp: 97, at: 165, df: 60, sa: 65, sd: 50, sp: 58 },
         weightkg: 102.5,
         abilities: { 0: 'Mold Breaker' }
-    },
-    Rebble: {
-        types: ['Rock'],
-        bs: { hp: 45, at: 25, df: 65, sa: 75, sd: 55, sp: 80 },
-        weightkg: 7,
-        nfe: true,
-        gender: 'N',
-        abilities: { 0: 'Levitate' }
     },
     Regigigas: {
         types: ['Normal'],
@@ -3745,13 +3714,6 @@ var BW_PATCH = {
         weightkg: 32,
         abilities: { 0: 'Defeatist' }
     },
-    Argalis: {
-        types: ['Bug', 'Psychic'],
-        bs: { hp: 60, at: 90, df: 89, sa: 87, sd: 40, sp: 54 },
-        weightkg: 341.4,
-        nfe: true,
-        abilities: { 0: 'Shed Skin' }
-    },
     Audino: {
         types: ['Normal'],
         bs: { hp: 103, at: 60, df: 86, sa: 60, sd: 86, sp: 50 },
@@ -3817,13 +3779,6 @@ var BW_PATCH = {
         weightkg: 94.6,
         abilities: { 0: 'Reckless' }
     },
-    Brattler: {
-        types: ['Dark', 'Grass'],
-        bs: { hp: 80, at: 70, df: 40, sa: 20, sd: 90, sp: 30 },
-        weightkg: 11.5,
-        nfe: true,
-        abilities: { 0: 'Harvest' }
-    },
     Braviary: {
         types: ['Normal', 'Flying'],
         bs: { hp: 100, at: 123, df: 75, sa: 57, sd: 75, sp: 80 },
@@ -3835,13 +3790,6 @@ var BW_PATCH = {
         bs: { hp: 74, at: 108, df: 133, sa: 83, sd: 65, sp: 32 },
         weightkg: 81,
         abilities: { 0: 'Solid Rock' }
-    },
-    Cawdet: {
-        types: ['Steel', 'Flying'],
-        bs: { hp: 35, at: 72, df: 85, sa: 40, sd: 55, sp: 88 },
-        weightkg: 25,
-        nfe: true,
-        abilities: { 0: 'Keen Eye' }
     },
     Chandelure: {
         types: ['Ghost', 'Fire'],
@@ -3858,6 +3806,13 @@ var BW_PATCH = {
     Cobalion: {
         types: ['Steel', 'Fighting'],
         bs: { hp: 91, at: 90, df: 129, sa: 90, sd: 72, sp: 108 },
+        weightkg: 250,
+        abilities: { 0: 'Justified' },
+        gender: 'N'
+    },
+    'Cobalion-Raid': {
+        types: ['Steel', 'Fighting'],
+        bs: { hp: 910, at: 225, df: 1290, sa: 225, sd: 720, sp: 108 },
         weightkg: 250,
         abilities: { 0: 'Justified' },
         gender: 'N'
@@ -3900,13 +3855,6 @@ var BW_PATCH = {
         weightkg: 8.5,
         nfe: true,
         abilities: { 0: 'Snow Cloak' }
-    },
-    Cupra: {
-        types: ['Bug', 'Psychic'],
-        bs: { hp: 50, at: 60, df: 49, sa: 67, sd: 30, sp: 44 },
-        weightkg: 4.8,
-        nfe: true,
-        abilities: { 0: 'Shield Dust' }
     },
     Darmanitan: {
         types: ['Fire'],
@@ -4369,12 +4317,28 @@ var BW_PATCH = {
         otherFormes: ['Meloetta-Pirouette'],
         gender: 'N'
     },
+    'Meloetta-Raid': {
+        types: ['Normal', 'Psychic'],
+        bs: { hp: 1000, at: 192, df: 770, sa: 320, sd: 1280, sp: 90 },
+        weightkg: 6.5,
+        abilities: { 0: 'Serene Grace' },
+        otherFormes: ['Meloetta-Pirouette-Raid'],
+        gender: 'N'
+    },
     'Meloetta-Pirouette': {
         types: ['Normal', 'Fighting'],
         bs: { hp: 100, at: 128, df: 90, sa: 77, sd: 77, sp: 128 },
         weightkg: 6.5,
         abilities: { 0: 'Serene Grace' },
         baseSpecies: 'Meloetta',
+        gender: 'N'
+    },
+    'Meloetta-Pirouette-Raid': {
+        types: ['Normal', 'Fighting'],
+        bs: { hp: 1000, at: 320, df: 900, sa: 192, sd: 770, sp: 128 },
+        weightkg: 6.5,
+        abilities: { 0: 'Serene Grace' },
+        baseSpecies: 'Meloetta-Raid',
         gender: 'N'
     },
     Mienfoo: {
@@ -4564,13 +4528,6 @@ var BW_PATCH = {
         nfe: true,
         abilities: { 0: 'Shed Skin' }
     },
-    Scratchet: {
-        types: ['Normal', 'Fighting'],
-        bs: { hp: 55, at: 85, df: 80, sa: 20, sd: 70, sp: 40 },
-        weightkg: 20,
-        nfe: true,
-        abilities: { 0: 'Scrappy' }
-    },
     Seismitoad: {
         types: ['Water', 'Ground'],
         bs: { hp: 105, at: 95, df: 75, sa: 85, sd: 75, sp: 74 },
@@ -4683,6 +4640,13 @@ var BW_PATCH = {
     Terrakion: {
         types: ['Rock', 'Fighting'],
         bs: { hp: 91, at: 129, df: 90, sa: 72, sd: 90, sp: 108 },
+        weightkg: 260,
+        abilities: { 0: 'Justified' },
+        gender: 'N'
+    },
+    'Terrakion-Raid': {
+        types: ['Rock', 'Fighting'],
+        bs: { hp: 910, at: 322, df: 900, sa: 180, sd: 900, sp: 108 },
         weightkg: 260,
         abilities: { 0: 'Justified' },
         gender: 'N'
@@ -4806,6 +4770,13 @@ var BW_PATCH = {
     Virizion: {
         types: ['Grass', 'Fighting'],
         bs: { hp: 91, at: 90, df: 72, sa: 90, sd: 129, sp: 108 },
+        weightkg: 200,
+        abilities: { 0: 'Justified' },
+        gender: 'N'
+    },
+    'Virizion-Raid': {
+        types: ['Grass', 'Fighting'],
+        bs: { hp: 910, at: 225, df: 720, sa: 225, sd: 1290, sp: 108 },
         weightkg: 200,
         abilities: { 0: 'Justified' },
         gender: 'N'
