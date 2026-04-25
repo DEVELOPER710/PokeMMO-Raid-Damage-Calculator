@@ -1,6 +1,6 @@
 var SETDEX_BW = {
 	"Heatran-Raid": {
-		"Blank Set": {
+		"Raid Boss": {
 			level: 100,
 			ability: "Flash Fire",
 			item: "Leftovers",
