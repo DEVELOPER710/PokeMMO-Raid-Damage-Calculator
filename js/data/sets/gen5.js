@@ -1,5 +1,5 @@
 var SETDEX_BW = {
-	'Heatran-Raid': {
+	"Heatran-Raid": {
 		"Blank Set": {
 			level: 100,
 			ability: "Flash Fire",
@@ -9,7 +9,7 @@ var SETDEX_BW = {
 			moves: ["Magma Storm", "Power Gem", "Solar Beam", "Earth Power"],
 		},
 	},
-	'Cresselia-Raid': {
+	"Cresselia-Raid": {
 		"Raid Boss": {
 			level: 100,
 			ability: "Levitate",
@@ -19,7 +19,7 @@ var SETDEX_BW = {
 			moves: ["Psychic", "Thunderbolt", "Shadow Ball", "Power Gem"],
 		},
 	},
-	'Meloetta-Raid': {
+	"Meloetta-Raid": {
 		"Raid Boss": {
 			level: 100,
 			ability: "Serene Grace",
@@ -39,7 +39,7 @@ var SETDEX_BW = {
 			moves: ["Shadow Claw", "Drain Punch", "Stone Edge", "Zen Headbutt"],
 		},
 	},
-	'Cobalion-Raid': {
+	"Cobalion-Raid": {
 		"Raid Boss": {
 			level: 100,
 			ability: "Justified",
@@ -49,7 +49,7 @@ var SETDEX_BW = {
 			moves: ["Air Slash", "Flash Cannon", "Sacred Sword", "Stone Edge"],
 		},
 	},
-	'Virizion-Raid': {
+	"Virizion-Raid": {
 		"Raid Boss": {
 			level: 100,
 			ability: "Justified",
@@ -59,7 +59,7 @@ var SETDEX_BW = {
 			moves: ["Sacred Sword", "Leaf Blade", "Stone Edge", "X-Scissor"],
 		},
 	},
-	'Terrakion-Raid': {
+	"Terrakion-Raid": {
 		"Raid Boss": {
 			level: 100,
 			ability: "Justified",
