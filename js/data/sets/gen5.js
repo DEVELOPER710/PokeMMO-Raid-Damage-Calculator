@@ -6,7 +6,7 @@ var SETDEX_BW = {
 			item: "Leftovers",
 			nature: "Hardy",
 			evs: { sp: 252 },
-			moves: ["Magma Storm", "Power Gem", "Solar Beam", "Earth Power"],
+			moves: ["Magma Storm ☆", "Power Gem", "Solar Beam", "Earth Power"],
 		},
 	},
 	"Cresselia-Raid": {
