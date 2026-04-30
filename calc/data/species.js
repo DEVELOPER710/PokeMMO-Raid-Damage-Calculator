@@ -3040,7 +3040,7 @@ var DPP_PATCH = {
     },
     'Cresselia-Raid': {
         types: ['Psychic'],
-        bs: { hp: 1200, at: 175, df: 1100, sa: 187, sd: 1200, sp: 85 },
+        bs: { hp: 1200, at: 140, df: 1100, sa: 150, sd: 1200, sp: 85 },
         weightkg: 85.6,
         abilities: { 0: 'Levitate' }
     },
@@ -3210,7 +3210,7 @@ var DPP_PATCH = {
     },
     'Heatran-Raid': {
         types: ['Fire', 'Steel'],
-        bs: { hp: 910, at: 225, df: 1060, sa: 325, sd: 1060, sp: 77 },
+        bs: { hp: 910, at: 180, df: 1060, sa: 260, sd: 1060, sp: 77 },
         weightkg: 430,
         abilities: { 0: 'Flash Fire' }
     },
@@ -3812,7 +3812,7 @@ var BW_PATCH = {
     },
     'Cobalion-Raid': {
         types: ['Steel', 'Fighting'],
-        bs: { hp: 910, at: 225, df: 1290, sa: 225, sd: 720, sp: 108 },
+        bs: { hp: 910, at: 180, df: 1290, sa: 180, sd: 720, sp: 108 },
         weightkg: 250,
         abilities: { 0: 'Justified' },
         gender: 'N'
@@ -4319,7 +4319,7 @@ var BW_PATCH = {
     },
     'Meloetta-Raid': {
         types: ['Normal', 'Psychic'],
-        bs: { hp: 1000, at: 192, df: 770, sa: 320, sd: 1280, sp: 90 },
+        bs: { hp: 1000, at: 154, df: 770, sa: 256, sd: 1280, sp: 90 },
         weightkg: 6.5,
         abilities: { 0: 'Serene Grace' },
         otherFormes: ['Meloetta-Pirouette-Raid'],
@@ -4335,7 +4335,7 @@ var BW_PATCH = {
     },
     'Meloetta-Pirouette-Raid': {
         types: ['Normal', 'Fighting'],
-        bs: { hp: 1000, at: 320, df: 900, sa: 192, sd: 770, sp: 128 },
+        bs: { hp: 1000, at: 256, df: 900, sa: 154, sd: 770, sp: 128 },
         weightkg: 6.5,
         abilities: { 0: 'Serene Grace' },
         baseSpecies: 'Meloetta-Raid',
@@ -4646,7 +4646,7 @@ var BW_PATCH = {
     },
     'Terrakion-Raid': {
         types: ['Rock', 'Fighting'],
-        bs: { hp: 910, at: 322, df: 900, sa: 180, sd: 900, sp: 108 },
+        bs: { hp: 910, at: 258, df: 900, sa: 144, sd: 900, sp: 108 },
         weightkg: 260,
         abilities: { 0: 'Justified' },
         gender: 'N'
@@ -4776,7 +4776,7 @@ var BW_PATCH = {
     },
     'Virizion-Raid': {
         types: ['Grass', 'Fighting'],
-        bs: { hp: 910, at: 225, df: 720, sa: 225, sd: 1290, sp: 108 },
+        bs: { hp: 910, at: 180, df: 720, sa: 180, sd: 1290, sp: 108 },
         weightkg: 200,
         abilities: { 0: 'Justified' },
         gender: 'N'
