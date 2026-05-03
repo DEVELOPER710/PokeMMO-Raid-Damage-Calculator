@@ -1141,6 +1141,7 @@ var DPP_PATCH = {
         category: 'Physical'
     },
     'Stone Edge': { bp: 100, type: 'Rock', category: 'Physical' },
+    'Stone Edge ☆': { bp: 100, type: 'Rock', category: 'Physical' },
     'Thunder Fang': {
         bp: 65,
         type: 'Electric',
