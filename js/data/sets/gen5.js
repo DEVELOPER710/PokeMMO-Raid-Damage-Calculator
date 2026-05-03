@@ -6,7 +6,7 @@ var SETDEX_BW = {
 			item: "Leftovers",
 			nature: "Hardy",
 			evs: { sp: 252 },
-			moves: ["Magma Storm ☆", "Power Gem", "Solar Beam", "Earth Power"],
+			moves: ["☆ Magma Storm ☆", "Power Gem", "Solar Beam", "Earth Power"],
 		},
 	},
 	"Cresselia-Raid": {
@@ -16,7 +16,7 @@ var SETDEX_BW = {
 			item: "Expert Belt",
 			nature: "Hardy",
 			evs: { sp: 252 },
-			moves: ["Psychic", "Thunderbolt", "Shadow Ball", "Power Gem"],
+			moves: ["☆ Psychic ☆", "Thunderbolt", "☆ Shadow Ball ☆", "Power Gem"],
 		},
 	},
 	"Meloetta-Raid": {
@@ -26,7 +26,7 @@ var SETDEX_BW = {
 			item: "Sitrus Berry",
 			nature: "Hardy",
 			evs: { sp: 252 },
-			moves: ["Focus Blast", "Charge Beam", "Shadow Ball", "Psychic"],
+			moves: ["☆ Focus Blast ☆", "☆ Charge Beam ☆", "☆ Shadow Ball ☆", "☆ Psychic ☆"],
 		},
 	},
 	"Meloetta-Pirouette-Raid": {
@@ -36,7 +36,7 @@ var SETDEX_BW = {
 			item: "Sitrus Berry",
 			nature: "Hardy",
 			evs: { sp: 252 },
-			moves: ["Shadow Claw", "Drain Punch", "Stone Edge", "Zen Headbutt"],
+			moves: ["Shadow Claw", "Drain Punch", "☆ Stone Edge ☆", "Zen Headbutt"],
 		},
 	},
 	"Cobalion-Raid": {
@@ -46,7 +46,7 @@ var SETDEX_BW = {
 			item: "Expert Belt",
 			nature: "Hardy",
 			evs: { sp: 252 },
-			moves: ["Air Slash", "Flash Cannon", "Sacred Sword", "Stone Edge"],
+			moves: ["☆ Air Slash ☆", "Flash Cannon", "Sacred Sword", "☆ Stone Edge ☆"],
 		},
 	},
 	"Virizion-Raid": {
@@ -56,7 +56,7 @@ var SETDEX_BW = {
 			item: "Liechi Berry",
 			nature: "Hardy",
 			evs: { sp: 252 },
-			moves: ["Sacred Sword", "Leaf Blade", "Stone Edge", "X-Scissor"],
+			moves: ["Sacred Sword", "Leaf Blade", "☆ Stone Edge ☆", "X-Scissor"],
 		},
 	},
 	"Terrakion-Raid": {
@@ -66,7 +66,7 @@ var SETDEX_BW = {
 			item: "Lum Berry",
 			nature: "Hardy",
 			evs: { sp: 252 },
-			moves: ["Earthquake", "Sacred Sword", "Stone Edge", "Poison Jab"],
+			moves: ["Earthquake", "Sacred Sword", "☆ Stone Edge ☆", "Poison Jab"],
 		},
 	},
 
